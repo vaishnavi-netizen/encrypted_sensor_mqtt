@@ -81,3 +81,52 @@ The live temperature and humidity values, collected from the DHT sensor and tran
 
 ## 📂 File Structure
 
+encrypted_sensor_mqtt/
+├── encrypted_sensor_mqtt.ino
+├── screenshots/
+│ ├── hardware_circuit_setup.jpg
+│ ├── adafruit_dashboard.jpg
+│ └── serial_monitor_output.jpg
+
+
+
+---
+
+## 🚀 Setup Instructions
+
+1. Install the required Arduino libraries (`AESLib`, `PubSubClient`, `ESP8266WiFi`)
+2. Flash the `.ino` code to your ESP8266 via Arduino IDE
+3. Configure your Adafruit IO credentials in the code
+4. Connect to WiFi and open the Serial Monitor to observe logs
+5. Check Adafruit IO dashboard for real-time visual data
+
+---
+
+## 📈 Results
+
+- AES encryption successfully protected sensor data during MQTT transmission.
+- Wireshark verified that data remained unreadable during transit.
+- Adafruit IO displayed and stored data correctly after decryption.
+
+---
+
+## 📚 Research Reference
+
+> **"Secure and Efficient Data Transmission in IoT Environments Using MQTT Protocol"**  
+> _By Vaishnavi Patade, Prof. Pramod Kanjalkar, and team_  
+> Focuses on lightweight encryption integration in real-time smart applications.
+
+---
+
+## 👩‍💻 Author
+
+**Vaishnavi Patade**  
+B.Tech Computer Engineering (AI), VIT Pune  
+GitHub: [vaishnavi-netizen](https://github.com/vaishnavi-netizen)
+
+---
+
+## 📃 License
+
+This project is released under the MIT License.
+
