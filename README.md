@@ -83,10 +83,14 @@ The live temperature and humidity values, collected from the DHT sensor and tran
 
 encrypted_sensor_mqtt/
 ├── encrypted_sensor_mqtt.ino
+├── config.h (in .gitignore for secrets)
+├── README.md
 ├── screenshots/
-│ ├── hardware_circuit_setup.jpg
-│ ├── adafruit_dashboard.jpg
-│ └── serial_monitor_output.jpg
+│   ├── hardware_circuit_setup.jpg
+│   ├── adafruit_dashboard.jpg
+│   ├── serial_monitor_output.jpg
+│   └── Adafruit_output.jpg
+
 
 
 
