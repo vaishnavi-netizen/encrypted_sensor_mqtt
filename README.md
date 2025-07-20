@@ -59,6 +59,13 @@ The encrypted data, along with publishing latency, is displayed in the Arduino S
 4. **Cloud Display**: Data is visualized on Adafruit IO.
 5. **Wireshark Monitoring**: Verifies data encryption during transmission.
 
+
+## Output on Adafruit IO Dashboard
+
+![Adafruit Output](screenshots/Adafruit_output.jpg)
+
+The live temperature and humidity values, collected from the DHT sensor and transmitted via MQTT, are visualized in real-time on the Adafruit IO dashboard using interactive gauge widgets.
+
 ---
 
 ## 🛠 Tools & Libraries
