@@ -113,7 +113,7 @@ encrypted_sensor_mqtt/
 ## 📚 Research Reference
 
 > **"Secure and Efficient Data Transmission in IoT Environments Using MQTT Protocol"**  
-> _By Vaishnavi Patade, Prof. Pramod Kanjalkar, and team_  
+> _By Vaishnavi Patade  
 > Focuses on lightweight encryption integration in real-time smart applications.
 
 ---
